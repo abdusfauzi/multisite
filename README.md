@@ -1,6 +1,6 @@
 # Multisite
 
-A multisite plugin for [WordPlate](https://wordplate.github.io/).
+A [multisite](http://codex.wordpress.org/Glossary#Multisite) plugin for [WordPlate](https://wordplate.github.io/).
 
 ## Installation
 
