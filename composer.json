@@ -1,0 +1,31 @@
+{
+    "name": "wordplate/multisite",
+    "description": "A multisite plugin for WordPlate",
+    "keywords": ["wordplate", "multisite", "wordpress", "plugin"],
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Klaiber",
+            "email": "hello@vinkla.com"
+        },
+        {
+            "name": "Chris Andersson",
+            "email": "hello@puredazzle.se"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "wordplate/framework": "^4.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra":{
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
