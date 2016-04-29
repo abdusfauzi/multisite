@@ -31,6 +31,10 @@ namespace WordPlate\Multisite;
  */
 function multisite($url)
 {
+    if (!is_multisite()) {
+        return $url;
+    }
+
     $urls_to_fix = [
         'wp-admin',
         'wp-login.php',
