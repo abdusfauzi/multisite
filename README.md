@@ -6,6 +6,8 @@ A [multisite](http://codex.wordpress.org/Glossary#Multisite) plugin for [WordPla
 [![Latest Version](https://img.shields.io/github/release/wordplate/multisite.svg?style=flat)](https://github.com/wordplate/multisite/releases)
 [![License](https://img.shields.io/packagist/l/wordplate/multisite.svg?style=flat)](https://packagist.org/packages/wordplate/multisite)
 
+> **Note:** This plugin is still under development, you may use it at your own risk. We haven't had any issues ourselves but please be cautious.
+
 ## Installation
 
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
