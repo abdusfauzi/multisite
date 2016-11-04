@@ -30,4 +30,4 @@ composer require wordplate/multisite
 
 ## License
 
-Multisite is licensed under [The MIT License (MIT)](LICENSE).
+[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com)
