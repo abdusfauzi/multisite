@@ -18,6 +18,8 @@
 * Plugin URI: https://github.com/wordplate/multisite
 */
 
+declare(strict_types=1);
+
 namespace WordPlate\Multisite;
 
 /**
@@ -29,7 +31,7 @@ namespace WordPlate\Multisite;
  *
  * @return string
  */
-function multisite($url)
+function multisite(string $url): string
 {
     if (!is_multisite()) {
         return $url;
