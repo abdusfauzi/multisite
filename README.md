@@ -1,3 +1,5 @@
+## WARNING! This package is no longer maintained.
+
 # Multisite
 
 A [multisite](http://codex.wordpress.org/Glossary#Multisite) plugin for [WordPlate](https://wordplate.github.io/).
