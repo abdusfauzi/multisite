@@ -47,7 +47,7 @@ function multisite(string $url): string
     $directory = env('WP_DIR', 'wordpress');
 
     foreach ($urls_to_fix as  $maybe_fix_url) {
-        $fixed_wp_url = '/'.$directory.'/'.$maybe_fix_url;
+        $fixed_wp_url = $directory.'/'.$maybe_fix_url;
 
         if (false !== stripos($url, $maybe_fix_url) && false === stripos($url, $fixed_wp_url)) {
             $url = str_replace($maybe_fix_url, $fixed_wp_url, $url);
