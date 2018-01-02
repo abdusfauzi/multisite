@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.0.0 (released 2018-01-02)
+
+- Added wordplate 6.0 support
+- Removed php 7.0 support
+- Fixed slash bug in plugin
+
 ## 1.2.0 (released 2017-01-29)
 
 - Drop php 5.6 support
