@@ -2,7 +2,7 @@
     "name": "wordplate/multisite",
     "description": "A multisite plugin for WordPlate",
     "keywords": ["wordplate", "multisite", "wordpress", "plugin"],
-    "type": "wordpress-plugin",
+    "type": "wordpress-muplugin",
     "license": "MIT",
     "authors": [
         {
